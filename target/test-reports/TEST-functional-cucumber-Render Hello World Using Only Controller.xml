@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Michael-Luttons-MacBook-Pro-2.local" name="Render Hello World Using Only Controller" tests="1" time="0.191" timestamp="2012-11-19T04:00:50">
+<testsuite errors="0" failures="0" hostname="Michael-Luttons-MacBook-Pro-2.local" name="Render Hello World Using Only Controller" tests="1" time="0.201" timestamp="2012-11-19T05:00:15">
   <properties />
-  <testcase classname="grails.plugin.cucumber.CucumberTest" name="Verify rendered output is available" time="0.099" />
+  <testcase classname="grails.plugin.cucumber.CucumberTest" name="Verify rendered output is available" time="0.1" />
   <system-out><![CDATA[Feature: Render Hello World Using Only Controller
     As a programmer
     I want to be able to verify hard-coded contents rendered from a controller
@@ -9,7 +9,7 @@
 
 --Output from Verify rendered output is available--
   Scenario: Verify rendered output is available    # Features/ExampleA.feature:6
-    When I access the HelloWorld controller        # ExampleA-Steps.groovy:10
+    When I access the HelloWorld controller        # ExampleA-Steps.groovy:9
     Then its response should contain "Hello World" # ExampleA-Steps.groovy:17
 ]]></system-out>
   <system-err><![CDATA[

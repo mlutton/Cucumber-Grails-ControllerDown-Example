@@ -2871,3 +2871,114 @@ java.lang.IllegalStateException: No thread-bound request found: Are you referrin
 	at com.example.HelloWorldController.index(HelloWorldController.groovy:5)
 	at Steps.ExampleA-Steps$_run_closure1.doCall(ExampleA-Steps.groovy:13)
 	at ✽.When I access the HelloWorld controller(Features/ExampleA.feature:7)
+2012-11-18 23:12:41,533 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: helloWorldController for class: Steps.ExampleA-Steps
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:50)
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:231)
+	at Steps.ExampleA-Steps$_run_closure2.doCall(ExampleA-Steps.groovy:22)
+	at ✽.When I access the HelloWorld2 controller(Features/ExampleA.feature:11)
+2012-11-18 23:12:41,538 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: helloWorldController for class: Steps.ExampleA-Steps
+	at Steps.ExampleA-Steps$_run_closure2.doCall(ExampleA-Steps.groovy:22)
+	at ✽.When I access the HelloWorld2 controller(Features/ExampleA.feature:11)
+2012-11-18 23:12:41,544 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: helloWorldController for class: Steps.ExampleA-Steps
+	at Steps.ExampleA-Steps$_run_closure2.doCall(ExampleA-Steps.groovy:22)
+	at ✽.When I access the HelloWorld2 controller(Features/ExampleA.feature:11)
+2012-11-18 23:12:41,545 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: helloWorldController for class: Steps.ExampleA-Steps
+	at Steps.ExampleA-Steps$_run_closure2.doCall(ExampleA-Steps.groovy:22)
+	at ✽.When I access the HelloWorld2 controller(Features/ExampleA.feature:11)
+2012-11-18 23:13:56,002 [main] ERROR StackTrace  - Full Stack Trace:
+Assertion failed: 
+
+assert arg1 == response
+       |    |  |
+       |    |  ""
+       |    false
+       Hello World
+
+	at org.codehaus.groovy.runtime.InvokerHelper.assertFailed(InvokerHelper.java:386)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.assertFailed(ScriptBytecodeAdapter.java:658)
+	at Steps.ExampleA-Steps$_run_closure3.doCall(ExampleA-Steps.groovy:28)
+	at ✽.Then its response should contain "Hello World"(Features/ExampleA.feature:12)
+2012-11-18 23:13:56,006 [main] ERROR StackTrace  - Full Stack Trace:
+Assertion failed: 
+
+assert arg1 == response
+       |    |  |
+       |    |  ""
+       |    false
+       Hello World
+
+	at Steps.ExampleA-Steps$_run_closure3.doCall(ExampleA-Steps.groovy:28)
+	at ✽.Then its response should contain "Hello World"(Features/ExampleA.feature:12)
+2012-11-18 23:13:56,011 [main] ERROR StackTrace  - Full Stack Trace:
+Assertion failed: 
+
+assert arg1 == response
+       |    |  |
+       |    |  ""
+       |    false
+       Hello World
+
+	at Steps.ExampleA-Steps$_run_closure3.doCall(ExampleA-Steps.groovy:28)
+	at ✽.Then its response should contain "Hello World"(Features/ExampleA.feature:12)
+2012-11-18 23:13:56,011 [main] ERROR StackTrace  - Full Stack Trace:
+Assertion failed: 
+
+assert arg1 == response
+       |    |  |
+       |    |  ""
+       |    false
+       Hello World
+
+	at Steps.ExampleA-Steps$_run_closure3.doCall(ExampleA-Steps.groovy:28)
+	at ✽.Then its response should contain "Hello World"(Features/ExampleA.feature:12)
+2012-11-18 23:49:43,893 [main] ERROR StackTrace  - Full Stack Trace:
+Assertion failed: 
+
+assert arg1 == response
+       |    |  |
+       |    |  ""
+       |    false
+       Hello World
+
+	at org.codehaus.groovy.runtime.InvokerHelper.assertFailed(InvokerHelper.java:386)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.assertFailed(ScriptBytecodeAdapter.java:658)
+	at Steps.ExampleA-Steps$_run_closure3.doCall(ExampleA-Steps.groovy:28)
+	at ✽.Then its response should contain "Hello World"(Features/ExampleA.feature:12)
+2012-11-18 23:49:43,899 [main] ERROR StackTrace  - Full Stack Trace:
+Assertion failed: 
+
+assert arg1 == response
+       |    |  |
+       |    |  ""
+       |    false
+       Hello World
+
+	at Steps.ExampleA-Steps$_run_closure3.doCall(ExampleA-Steps.groovy:28)
+	at ✽.Then its response should contain "Hello World"(Features/ExampleA.feature:12)
+2012-11-18 23:49:43,904 [main] ERROR StackTrace  - Full Stack Trace:
+Assertion failed: 
+
+assert arg1 == response
+       |    |  |
+       |    |  ""
+       |    false
+       Hello World
+
+	at Steps.ExampleA-Steps$_run_closure3.doCall(ExampleA-Steps.groovy:28)
+	at ✽.Then its response should contain "Hello World"(Features/ExampleA.feature:12)
+2012-11-18 23:49:43,904 [main] ERROR StackTrace  - Full Stack Trace:
+Assertion failed: 
+
+assert arg1 == response
+       |    |  |
+       |    |  ""
+       |    false
+       Hello World
+
+	at Steps.ExampleA-Steps$_run_closure3.doCall(ExampleA-Steps.groovy:28)
+	at ✽.Then its response should contain "Hello World"(Features/ExampleA.feature:12)

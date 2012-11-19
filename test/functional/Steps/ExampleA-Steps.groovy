@@ -1,6 +1,5 @@
 package Steps
 
-import cucumber.runtime.PendingException
 import com.example.HelloWorldController
 
 this.metaClass.mixin (cucumber.runtime.groovy.EN)
@@ -14,6 +13,7 @@ When(~'^I access the HelloWorld controller$') { ->
 
     response = helloWorldController.response.text
 }
+
 Then(~'^its response should contain "([^"]*)"$') { String arg1 ->
     assert arg1 == response
 }

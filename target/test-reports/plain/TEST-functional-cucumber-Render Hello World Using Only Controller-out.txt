@@ -5,5 +5,5 @@ Feature: Render Hello World Using Only Controller
 
 --Output from Verify rendered output is available--
   Scenario: Verify rendered output is available    # Features/ExampleA.feature:6
-    When I access the HelloWorld controller        # ExampleA-Steps.groovy:10
+    When I access the HelloWorld controller        # ExampleA-Steps.groovy:9
     Then its response should contain "Hello World" # ExampleA-Steps.groovy:17
