@@ -17,7 +17,10 @@
     <orderEntry type="library" scope="PROVIDED" name="grails-2.1.1" level="application" />
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (Cucumber-Grails-ControllerDown-Example-grailsPlugins)">
-        <CLASSES />
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/info.cukes/cucumber-groovy/jars/cucumber-groovy-1.0.14.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.liquibase/liquibase-core/jars/liquibase-core-2.0.5.jar!/" />
+        </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>

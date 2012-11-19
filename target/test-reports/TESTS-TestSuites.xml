@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="Michael-Luttons-MacBook-Pro-2.local" id="0" name="Render Hello World Using Only Controller" package="" tests="1" time="0.191" timestamp="2012-11-19T04:00:50">
+      <properties />
+
+      <testcase classname="grails.plugin.cucumber.CucumberTest" name="Verify rendered output is available" time="0.099" />
+
+      <system-out><![CDATA[Feature: Render Hello World Using Only Controller
+    As a programmer
+    I want to be able to verify hard-coded contents rendered from a controller
+    So that I can demonstrate how to test this functionality in Grails
+
+--Output from Verify rendered output is available--
+  Scenario: Verify rendered output is available    # Features/ExampleA.feature:6
+    When I access the HelloWorld controller        # ExampleA-Steps.groovy:10
+    Then its response should contain "Hello World" # ExampleA-Steps.groovy:17
+]]></system-out>
+
+      <system-err><![CDATA[
+--Output from Verify rendered output is available--]]></system-err>
+
+  </testsuite>
+</testsuites>

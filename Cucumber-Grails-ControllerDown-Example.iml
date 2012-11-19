@@ -33,7 +33,9 @@
     </facet>
     <facet type="hibernate" name="Hibernate">
       <configuration>
-        <datasource-map />
+        <datasource-map>
+          <unit-entry name="Gorm" />
+        </datasource-map>
       </configuration>
     </facet>
   </component>
@@ -53,22 +55,26 @@
       <sourceFolder url="file://$MODULE_DIR$/test/unit" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/test/integration" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/test/functional" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/target/test-classes" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="inheritedJdk" />
-    <orderEntry type="library" name="com.springsource.sts.grails.core.CLASSPATH_CONTAINER" level="application" />
-    <orderEntry type="library" name="grails-2.1.1" level="application" />
+    <orderEntry type="library" exported="" name="com.springsource.sts.grails.core.CLASSPATH_CONTAINER" level="application" />
+    <orderEntry type="library" exported="" name="grails-2.1.1" level="application" />
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (Cucumber-Grails-ControllerDown-Example)">
         <CLASSES>
           <root url="file://$MODULE_DIR$/lib" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/info.cukes/cucumber-groovy/jars/cucumber-groovy-1.0.14.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.liquibase/liquibase-core/jars/liquibase-core-2.0.5.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
         <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
       </library>
     </orderEntry>
-    <orderEntry type="module" module-name="Cucumber-Grails-ControllerDown-Example-grailsPlugins" />
+    <orderEntry type="module" module-name="Cucumber-Grails-ControllerDown-Example-grailsPlugins" exported="" />
   </component>
 </module>
 

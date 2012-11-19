@@ -6,3 +6,11 @@ technologies:
 It provides examples of how to create step definitions
 that instantiate a Grails Controller and verify it's
 results.
+
+In order to test the unit tests, you need to run
+
+grails Test-App unit:
+
+In order to test the cucumber tests, you need to run
+
+grails Test-App functional:cucumber
