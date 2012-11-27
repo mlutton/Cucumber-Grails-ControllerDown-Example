@@ -6,11 +6,49 @@
         <datasource-map />
       </configuration>
     </facet>
+    <facet type="web" name="GrailsWeb">
+      <configuration>
+        <webroots>
+          <root url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/database-migration-1.1/grails-app/views" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/jquery-1.8.0/web-app" relative="/" />
+        </webroots>
+        <sourceRoots />
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
+    <content url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/cache-1.0.0">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/cache-1.0.0/src/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/cache-1.0.0/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/cache-1.0.0/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/cache-1.0.0/grails-app/taglib" isTestSource="false" />
+    </content>
     <content url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/cucumber-0.6.2">
       <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/cucumber-0.6.2/src/groovy" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/database-migration-1.1">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/database-migration-1.1/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/database-migration-1.1/grails-app/controllers" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/hibernate-2.1.1">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/hibernate-2.1.1/grails-app/i18n" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/jquery-1.8.0">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/jquery-1.8.0/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/jquery-1.8.0/grails-app/i18n" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/jquery-1.8.0/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/jquery-1.8.0/grails-app/taglib" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/resources-1.1.6">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/resources-1.1.6/src/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/resources-1.1.6/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/resources-1.1.6/grails-app/i18n" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/resources-1.1.6/grails-app/taglib" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/tomcat-2.1.1" />
+    <content url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/webxml-1.4.1">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/Cucumber-Grails-ControllerDown-Example/plugins/webxml-1.4.1/src/groovy" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
